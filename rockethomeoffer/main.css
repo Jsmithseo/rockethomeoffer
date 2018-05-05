@@ -1,0 +1,64 @@
+
+.row.ctabanner {
+    background-color: #F04134;
+    height: 50px;
+}
+
+.nav-item {
+	display: inline-block!important;
+	padding-top: 50px;
+}
+
+@media (min-width: 992px) {
+.col-md-6.centered-header {
+     width: 30%!important; 
+	}
+}
+
+li.nav-item {
+	font-family: avenir;
+	font-size: 16px;
+}
+
+
+li.nav-item.phone {
+	padding-top: 10px;
+}
+
+
+li.nav-item a{
+   color: #000;
+}
+
+a.nav-link.phone {
+	color: #fff;
+	font-size: 18px;
+
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: #fff;
+}
+
+.header-title {
+	font-family: avenir;
+}
+
+.tagline {
+	font-family: avenir;
+}
+
+
+a.btn.btn-primary.btn-lg {
+	font-family: avenir;
+	padding: 3px 31px;
+	border-radius: 0px;
+	margin-top:50px;
+	margin-left: 0px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #F04134!important;
+    border-color: #F04134!important;
+}
