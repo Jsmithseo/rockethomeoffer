@@ -42,6 +42,7 @@ a.nav-link.phone {
 
 .header-title {
 	font-family: avenir;
+	color: #476B92!important;
 }
 
 .tagline {
@@ -55,6 +56,18 @@ a.btn.btn-primary.btn-lg {
 	border-radius: 0px;
 	margin-top:50px;
 	margin-left: 0px;
+	font-size: 16px;
+}
+
+.form-control {
+	color: #AEAEAE;
+	background-color: #E6F9FF;
+	height: 48px;
+
+
+}
+.btn.btn-primary.btn-lg.form-control-search {
+	    margin-top: 20px;
 }
 
 .btn-primary {
@@ -62,3 +75,13 @@ a.btn.btn-primary.btn-lg {
     background-color: #F04134!important;
     border-color: #F04134!important;
 }
+
+.bodySectionHeadline {
+	font-size: 30px;
+	font-family: avenir;
+	font-weight: 500;
+	padding-bottom: 50px;
+}
+
+
+
