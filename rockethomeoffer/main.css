@@ -66,6 +66,7 @@ a.btn.btn-primary.btn-lg {
 
 
 }
+
 .btn.btn-primary.btn-lg.form-control-search {
 	    margin-top: 20px;
 }
@@ -83,5 +84,43 @@ a.btn.btn-primary.btn-lg {
 	padding-bottom: 50px;
 }
 
+.middle-cta {
+	height: 200px;
+	background-color: #F0F0F0;
+	margin-bottom: 40px;
+}
 
+.middle-cta.bottom {
+	margin-bottom: 0px;
+}
+.case-study {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
+.display-4 {
+	font-size: 30px;
+	font-weight: 400;
+	font-family: avenir;	
+}
+
+.display-4-copy {
+	font-size: 18px;
+	font-weight: 300;
+	font-family: avenir;
+	word-spacing: 2px;
+
+}
+
+.testimonials {
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+ .middle-cta.footer{
+
+	background-color: #476B92;
+	padding-bottom: 0px;
+	margin-bottom: 0px
+}
