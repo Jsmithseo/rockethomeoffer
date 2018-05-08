@@ -1,0 +1,126 @@
+
+.row.ctabanner {
+    background-color: #F04134;
+    height: 50px;
+}
+
+.nav-item {
+	display: inline-block!important;
+	padding-top: 50px;
+}
+
+@media (min-width: 992px) {
+.col-md-6.centered-header {
+     width: 30%!important; 
+	}
+}
+
+li.nav-item {
+	font-family: avenir;
+	font-size: 16px;
+}
+
+
+li.nav-item.phone {
+	padding-top: 10px;
+}
+
+
+li.nav-item a{
+   color: #000;
+}
+
+a.nav-link.phone {
+	color: #fff;
+	font-size: 18px;
+
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: #fff;
+}
+
+.header-title {
+	font-family: avenir;
+	color: #476B92!important;
+}
+
+.tagline {
+	font-family: avenir;
+}
+
+
+a.btn.btn-primary.btn-lg {
+	font-family: avenir;
+	padding: 3px 31px;
+	border-radius: 0px;
+	margin-top:50px;
+	margin-left: 0px;
+	font-size: 16px;
+}
+
+.form-control {
+	color: #AEAEAE;
+	background-color: #E6F9FF;
+	height: 48px;
+
+
+}
+
+.btn.btn-primary.btn-lg.form-control-search {
+	    margin-top: 20px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #F04134!important;
+    border-color: #F04134!important;
+}
+
+.bodySectionHeadline {
+	font-size: 30px;
+	font-family: avenir;
+	font-weight: 500;
+	padding-bottom: 50px;
+}
+
+.middle-cta {
+	height: 200px;
+	background-color: #F0F0F0;
+	margin-bottom: 40px;
+}
+
+.middle-cta.bottom {
+	margin-bottom: 0px;
+}
+.case-study {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.display-4 {
+	font-size: 30px;
+	font-weight: 400;
+	font-family: avenir;	
+}
+
+.display-4-copy {
+	font-size: 18px;
+	font-weight: 300;
+	font-family: avenir;
+	word-spacing: 2px;
+
+}
+
+.testimonials {
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+ .middle-cta.footer{
+
+	background-color: #476B92;
+	padding-bottom: 0px;
+	margin-bottom: 0px
+}
