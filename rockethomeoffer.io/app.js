@@ -11,6 +11,17 @@ app.get('/', (req, res) => {
 app.get('/how-it-works', (req, res) => {
 	res.render("how-it-works");
 });
+app.get('/faq', (req, res) => {
+	res.render("faq");
+});
+
+app.get('/contact', (req, res) => {
+	res.render("contact");
+});
+
+app.get('/about', (req, res) => {
+	res.render("about");
+});
 
 app.listen(5100, () => {
 console.log('your application is running on port 5100');

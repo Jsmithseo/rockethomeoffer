@@ -5,7 +5,7 @@
 }
 
 .nav-item {
-	display: inline-block!important;
+	display: inline-flex!important;
 	padding-top: 50px;
 }
 
@@ -20,11 +20,9 @@ li.nav-item {
 	font-size: 16px;
 }
 
-
 li.nav-item.phone {
 	padding-top: 10px;
 }
-
 
 li.nav-item a{
    color: #000;
@@ -33,7 +31,6 @@ li.nav-item a{
 a.nav-link.phone {
 	color: #fff;
 	font-size: 18px;
-
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
@@ -63,8 +60,6 @@ a.btn.btn-primary.btn-lg {
 	color: #AEAEAE;
 	background-color: #E6F9FF;
 	height: 48px;
-
-
 }
 
 .btn.btn-primary.btn-lg.form-control-search {
@@ -109,7 +104,6 @@ a.btn.btn-primary.btn-lg {
 	font-weight: 300;
 	font-family: avenir;
 	word-spacing: 2px;
-
 }
 
 .testimonials {
@@ -118,14 +112,14 @@ a.btn.btn-primary.btn-lg {
 
 }
 
- .middle-cta.footer{
+ .middle-cta.footer {
 	background-color: #476B92;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	height: 200px;
 }
 
-.call-to-action .overlay{
+.call-to-action .overlay {
 	position:absolute;
 	background-color:#212529;
 	height:100%;
@@ -139,8 +133,19 @@ a.btn.btn-primary.btn-lg {
 	padding-top: 20px;
 }
 
-
-footer.footer{
+footer.footer {
 	padding-top:4rem;
 	padding-bottom:4rem
 }
+
+h2.how-it-work-heading {
+	font-family: avenir;
+	color: #476B92;
+}
+
+.how-it-work-heading-paragraph {
+	font-family: avenir;
+	font-size: 20px;
+}
+
+
