@@ -1,4 +1,6 @@
-
+.jumbotron {
+    background-image: url(/images/banner-image.jpg);
+}
 .row.ctabanner {
     background-color: #F04134;
     height: 50px;

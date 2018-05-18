@@ -4,6 +4,7 @@ const app = express();
 
 app.set('view engine', 'pug');
 
+// These are the routes
 app.get('/', (req, res) => {
 	res.render("index");
 });
@@ -23,6 +24,8 @@ app.get('/about', (req, res) => {
 	res.render("about");
 });
 
+
+// server code
 app.listen(5100, () => {
 console.log('your application is running on port 5100');
 
