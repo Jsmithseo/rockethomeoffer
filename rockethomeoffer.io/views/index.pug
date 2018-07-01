@@ -37,30 +37,25 @@ section.features-icons.bg-light.text-center
 section.middle-cta
   .container
     .row
-    center
-      .col-lg-12.col-md-12.col-sm-12.
+      .col-lg-12.col-md-12.col-sm-12
       h2 Get your fair cash offer today
       ul.nav
         li
           span
             a.btn.btn-primary.btn-lg.form-control-search(href='#' role='button') Get Cash Offer
+
 .row.case-study
-  .container
-      .col-lg-12
-        h2 Featured Client Story
-section
-  .container
-    .row
-      .col-lg-5
-        img.img-fluid.rounded.mb-4(src='http://placehold.it/450x300' alt='')
-      .col-lg-6
-        h2 About Modern Business
-        p
-          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.
-        p
-          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!
-        p
-          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?
+  section
+     .row
+      .container
+          .col-lg-6.col-md-6.col-sm-12
+            img.img-fluid.img-responsive.rounded(src='http://placehold.it/450x300' alt='')
+          .col-lg-6.col-md-6.col-sm-12
+            h2.feature-client-headline About Modern Business
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?
 
 // Testimonials
 section.testimonials.text-center.bg-light
@@ -75,17 +70,16 @@ section.middle-cta.bottom
   .overlay
   .container
     .row
-    center
       .col-xl-9.mx-auto.newsletter-cta-headline
         h2.mb-4 Newsletter Sign up now
-        form
+        form.home-form
           .form-row
-            .col-6.col-md-3
+            .col-lg-3.col-md-3
               input.form-control.form-control-lg(type='email' placeholder='Enter your First Name')
-            .col-6.col-md-3
+            .col-lg-3.col-md-3
               input.form-control.form-control-lg(type='email' placeholder='Enter Last your Name')
-            .col-6.col-md-3
+            .col-lg-3.col-md-3
               input.form-control.form-control-lg(type='email' placeholder='Enter your email')
-            .col-6.col-md-2
+            .col-lg-3.col-md-3
               button.btn.btn-block.btn-lg.btn-primary(type='submit') Sign up!
 include includes/footer.pug

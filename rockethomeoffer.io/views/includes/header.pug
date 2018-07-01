@@ -4,31 +4,64 @@ head
   link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous')
   link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.10/css/all.css' integrity='sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg' crossorigin='anonymous')
   link(rel='stylesheet' type='text/css' href='css/main.css')
-  link(href='https://unpkg.com/ionicons@4.0.0/dist/css/ionicons.min.css' rel='stylesheet')
-  link(src="https://unpkg.com/ionicons@4.0.0/dist/ionicons.js")
+  link(rel='stylesheet'  type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css')
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+  script(src='/js/main.js')
+  script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAyiJrizPxjPejmeUtCZo3TJeEClZLIzBQ&libraries=places&callback=autocompleteStart' async='' defer='')
+
+
 .row.ctabanner
   .col-12
     center
       li.nav-item.phone
-        a.nav-link.phone(href='#')    Call (602) 422-4326. now for a fair offer in 7 minutes!
-.container
-  .row.justify-content-md-center
-    .col-4.col-md-6.centered-header
-      nav.navbar.navbar-light.bg-light
-        a.navbar-brand(href='/')
-          img.d-inline-block.align-top(src='images/logo.png' width='250' height='75' alt='')
-    .col-4.col-md-6
-      ul.nav
-        li.nav-item
-          a.nav-link(href='how-it-works') How it Works
-        li.nav-item
-          a.nav-link(href='faq') FAQ
-        li.nav-item
-          a.nav-link(href='about') About Us
-        li.nav-item
-           a.nav-link.disabled(href='/contact') Contact
-    .col-4
-      ul.nav
-        li
-          span
-            a.btn.btn-primary.btn-lg(href='#' role='button') Get a Cash Offer Now
+        a.nav-link.phone(href='#') Call (602) 422-4326. now for a fair offer in 7 minutes!
+.container.container-header
+  .navbar-header
+    button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#navbar' aria-expanded='false' aria-controls='navbar')
+      span.sr-only Toggle navigation
+      span.icon-bar
+      span.icon-bar
+      span.icon-bar
+    .col-lg-4.col-md-6  
+    a.navbar-brand(href='/')
+      img.d-inline-block.align-top(src='images/logo.png' width='250' height='75' alt='')
+  .col-lg-4.col-md-6     
+  #navbar.navbar-collapse.collapse
+    ul.nav.navbar-nav
+
+      li
+        a(href='/how-it-works') How it works
+      li
+        a(href='/faq') FAQ
+      li
+        a(href='/about') About
+      li
+        a(href='/contact') Contact
+
+      .col-lg-4
+        ul.nav
+          li
+            span
+              a.btn.btn-primary.btn-lg#header-cta(href='#' role='button') Get a Cash Offer Now
+
+  //
+    I am saving this dropdown menu for later 
+    keeping it on ice for now
+
+      li.dropdown
+        a.dropdown-toggle(href='#' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false')
+          | Dropdown 
+          span.caret
+        ul.dropdown-menu
+          li
+            a(href='#') Action
+          li
+            a(href='#') Another action
+          li
+            a(href='#') Something else here
+          li.divider(role='separator')
+          li.dropdown-header Nav header
+          li
+            a(href='#') Separated link
+          li
+            a(href='#') One more separated link

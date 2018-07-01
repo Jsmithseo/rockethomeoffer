@@ -2,6 +2,31 @@ include includes/header.pug
 .jumbotron.contact-us-banner
   .container
     center
-      h1.header-title feel free to contact us
-      p.tagline Our process is meant to be easy and painless
+      h1.header-title Feel free to contact us
+      p.tagline We will make things fast and easy
+
+
+.container.how-it-works-container
+ .row 
+  .col-lg-12.col-md-12.col-sm-12 
+   h2.how-it-work-heading Pre Qualified Questionnaire
+   span.how-it-work-heading-paragraph Your contacting us will start the Revolutionary New Streamlined Process of Selling your Home or Property.  Within 24 hours of your call or submission of the online form, one of our Courteous, Professional Consultants will contact You and Guide You through Our Unique Buying Process as well as our Buying Programs.  You will be asked a few easy questions about Your Property and on the way to a Stress Free Rocket Fast Closing. When choosing to sell Your home to RocketHomeOffer, You choose the Peace of Mind that comes when Your questions are answered, you know the date of Closing, and how much you will walk away with.  Do not delay, call us today!
+
+.container
+ .row
+  .col-lg-8.col-md-8.col-sm-12
+    form(method='post', action='contact/send')
+     h1 Contact
+     .form-group
+      label Name
+      input.form-control(type='text', name='name', placeholder='Enter Name')
+     .form-group
+      label Email
+      input.form-control(type='email', name='email', placeholder='Enter Email')
+     .form-group
+      label Message
+      textarea.form-control(name='message', placeholder='Enter Message')
+      button.btn.btn-default(type='submit') Submit
+
+
 include includes/footer.pug

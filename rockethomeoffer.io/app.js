@@ -1,5 +1,9 @@
 const express = require('express');
 const app = express();
+const gulp = require('gulp');
+const pug = require('gulp-pug')(gulp);
+const nodemailer = require('nodemailer');
+var bodyParser = require('body-parser');
 
 
 app.set('view engine', 'pug');
@@ -25,11 +29,12 @@ app.get('/about', (req, res) => {
 });
 
 
+
 // server code
 app.listen(5100, () => {
-console.log('your application is running on port 5100');
+console.log('your application is lit on port 5100 ........');
 
 });
 
-app.use(express.static('public'))
+app.use(express.static('build'))
 
